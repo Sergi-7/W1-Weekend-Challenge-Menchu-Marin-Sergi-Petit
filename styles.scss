@@ -29,7 +29,7 @@ body {
 
 .header {
   &__top {
-    background-color: #c4bbbb;
+    background-color: $lightest;
   }
   &__links {
     display: flex;
@@ -43,7 +43,7 @@ body {
     height: 50px;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: $accent;
     color: white;
     font-size: x-large;
   }
@@ -77,10 +77,10 @@ body {
     background-repeat: no-repeat;
   }
   &__icon--light {
-    background-color: rgb(110, 110, 107);
+    background-color: $light;
   }
-  &__icon--white {
-    background-color: white;
+  &__icon--lightest {
+    background-color: $lightest;
   }
 }
 
@@ -150,10 +150,159 @@ body {
   }
 }
 
-footer {
+.footer {
   margin-top: 100px;
+  &__envios {
+    background-color: $light;
+    color: $darkest;
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+  &__container--row-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  &__container--column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__copyright {
+    background-color: $accent;
+    color: white;
+  }
 }
 
+.envios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  padding: 25px;
+  text-align: center;
+  &__icon {
+    height: 50px;
+    width: 50px;
+    background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
+    margin: 20px;
+    display: flex;
+  }
+  &__icon--1 {
+    width: 85px;
+    height: 60px;
+    background-position-x: 0px;
+    background-position-y: -38px;
+    background-repeat: no-repeat;
+  }
+  &__icon--2 {
+    width: 55px;
+    height: 60px;
+    background-position-x: -90px;
+    background-position-y: -38px;
+    background-repeat: no-repeat;
+  }
+  &__icon--3 {
+    width: 68px;
+    height: 60px;
+    background-position-x: -150px;
+    background-position-y: -36px;
+    background-repeat: no-repeat;
+  }
+  &__icon--4 {
+    width: 77px;
+    height: 60px;
+    background-position-x: -223px;
+    background-position-y: -38px;
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    display: flex;
+    margin: 10px;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+  }
+  &__subtitle {
+    display: flex;
+    margin: 10px;
+    font-size: small;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.social {
+  &__icons {
+    display: flex;
+    flex-direction: row;
+  }
+  &__icons--img {
+    height: 32px;
+    width: 32px;
+    background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
+    margin: 2px;
+    display: flex;
+  }
+  &__icons--1 {
+    background-position-x: 0px;
+    background-position-y: -494px;
+    background-repeat: no-repeat;
+  }
+  &__icons--2 {
+    background-position-x: -35px;
+    background-position-y: -494px;
+    background-repeat: no-repeat;
+  }
+  &__icons--3 {
+    background-position-x: -71px;
+    background-position-y: -494px;
+    background-repeat: no-repeat;
+  }
+  &__icons--4 {
+    background-position-x: -106px;
+    background-position-y: -494px;
+    background-repeat: no-repeat;
+  }
+  &__icons--5 {
+    background-position-x: -142px;
+    background-position-y: -494px;
+    background-repeat: no-repeat;
+  }
+}
+
+.contact {
+  &__icon {
+    height: 31px;
+    width: 30px;
+    background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
+    &--1 {
+      background-position-x: 0px;
+      background-position-y: -207px;
+      background-repeat: no-repeat;
+    }
+    &--2 {
+      background-position-x: -0px;
+      background-position-y: -246px;
+      background-repeat: no-repeat;
+    }
+    &--3 {
+      background-position-x: 0px;
+      background-position-y: -285px;
+      background-repeat: no-repeat;
+    }
+  }
+  &__title {
+    color: $accent;
+    font-size: large;
+  }
+}
 .button {
   @extend %button;
 }
