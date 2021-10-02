@@ -48,8 +48,8 @@ body > * > * > * {
   align-items: center;
   justify-content: center;
   background-color: #ff5958;
-  color: white;
-  font-size: x-large;
+  color: #fff;
+  font-size: 22px;
 }
 .header__user {
   height: 27px;
