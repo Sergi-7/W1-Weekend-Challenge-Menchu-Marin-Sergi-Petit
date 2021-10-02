@@ -94,24 +94,59 @@ body {
   margin-top: 100px;
   position: relative;
   padding-top: 50px;
-  // .title {
-  //   // te
-  // }
 }
 
-.main__icon {
+.main__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  padding: 15px 40px;
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.main__image {
   position: absolute;
-  top: -65px;
+  top: -60px;
+}
+
+.main__thumbnails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .button {
+    margin-top: 40px;
+  }
 }
 
 .thumbnail {
   position: relative;
   margin-bottom: 10px;
+  height: 125px;
+  overflow: hidden;
+  &__image {
+    max-width: 100%;
+    height: min-content;
+  }
   &__info {
     position: absolute;
     z-index: 1;
-    border: 2px red solid;
     bottom: 0;
+    background-color: rgba($lightest, $alpha: 0.8);
+    color: $dark;
+    width: 55%;
+    font-size: 12px;
+    padding: 0 15px;
+    line-height: 1.5em;
   }
 }
 
