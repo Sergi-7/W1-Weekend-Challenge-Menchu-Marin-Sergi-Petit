@@ -15,13 +15,13 @@ body {
     width: 100vw;
     & > * {
       width: 100vw;
-      border: 1px black solid;
+      //      border: 1px black solid;
       display: flex;
       flex-direction: column;
       align-items: center;
       & > * {
         width: 325px;
-        border: 1px green dotted;
+        //        border: 1px green dotted;
       }
     }
   }
@@ -82,16 +82,25 @@ body {
   &__icon--lightest {
     background-color: $lightest;
   }
+  &__logo {
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 .logo {
-  height: 100px;
-  justify-content: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo__image {
+  width: 280px;
 }
 
 .main__content {
   background-color: #f8f8f8;
-  margin-top: 100px;
+  margin-top: 160px;
   position: relative;
   padding-top: 50px;
 }
