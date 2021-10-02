@@ -29,7 +29,7 @@ body {
 
 .header {
   &__top {
-    background-color: #c4bbbb;
+    background-color: $lightest;
   }
   &__links {
     display: flex;
@@ -43,7 +43,7 @@ body {
     height: 50px;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: $accent;
     color: white;
     font-size: x-large;
   }
@@ -77,10 +77,10 @@ body {
     background-repeat: no-repeat;
   }
   &__icon--light {
-    background-color: rgb(110, 110, 107);
+    background-color: $light;
   }
-  &__icon--white {
-    background-color: white;
+  &__icon--lightest {
+    background-color: $lightest;
   }
 }
 
