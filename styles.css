@@ -119,18 +119,18 @@ body > * > * > * {
 .footer {
   margin-top: 100px;
 }
-.footer__container--row-wrap {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.footer__envios {
+  background-color: #bab8b6;
+  color: #2e2924;
 }
 .footer__container {
   display: flex;
   justify-content: center;
 }
-.footer__copyright {
-  background-color: #ff5958;
-  color: white;
+.footer__container--row-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .footer__container--column {
   display: flex;
@@ -138,19 +138,19 @@ body > * > * > * {
   justify-content: center;
   align-items: center;
 }
+.footer__copyright {
+  background-color: #ff5958;
+  color: white;
+}
 
 .envios {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f8f8f8;
-  width: 50vw;
+  width: 50%;
   padding: 25px;
-}
-.envios__row {
-  display: flex;
-  flex-direction: row;
+  text-align: center;
 }
 .envios__icon {
   height: 50px;
@@ -201,6 +201,68 @@ body > * > * > * {
   font-weight: normal;
   justify-content: center;
   align-items: center;
+}
+
+.social__icons {
+  display: flex;
+  flex-direction: row;
+}
+.social__icons--img {
+  height: 32px;
+  width: 32px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
+  margin: 2px;
+  display: flex;
+}
+.social__icons--1 {
+  background-position-x: 0px;
+  background-position-y: -494px;
+  background-repeat: no-repeat;
+}
+.social__icons--2 {
+  background-position-x: -35px;
+  background-position-y: -494px;
+  background-repeat: no-repeat;
+}
+.social__icons--3 {
+  background-position-x: -71px;
+  background-position-y: -494px;
+  background-repeat: no-repeat;
+}
+.social__icons--4 {
+  background-position-x: -106px;
+  background-position-y: -494px;
+  background-repeat: no-repeat;
+}
+.social__icons--5 {
+  background-position-x: -142px;
+  background-position-y: -494px;
+  background-repeat: no-repeat;
+}
+
+.contact__icon {
+  height: 31px;
+  width: 30px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
+}
+.contact__icon--1 {
+  background-position-x: 0px;
+  background-position-y: -207px;
+  background-repeat: no-repeat;
+}
+.contact__icon--2 {
+  background-position-x: 0px;
+  background-position-y: -246px;
+  background-repeat: no-repeat;
+}
+.contact__icon--3 {
+  background-position-x: 0px;
+  background-position-y: -285px;
+  background-repeat: no-repeat;
+}
+.contact__title {
+  color: #ff5958;
+  font-size: large;
 }
 
 /*# sourceMappingURL=styles.css.map */
