@@ -25,14 +25,12 @@ body > * {
 }
 body > * > * {
   width: 100vw;
-  border: 1px black solid;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 body > * > * > * {
   width: 325px;
-  border: 1px green dotted;
 }
 
 .header__top {
@@ -50,8 +48,8 @@ body > * > * > * {
   align-items: center;
   justify-content: center;
   background-color: #ff5958;
-  color: white;
-  font-size: x-large;
+  color: #fff;
+  font-size: 22px;
 }
 .header__user {
   height: 27px;
@@ -88,15 +86,25 @@ body > * > * > * {
 .header__icon--lightest {
   background-color: #f8f8f8;
 }
+.header__logo {
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
 
 .logo {
-  height: 100px;
-  justify-content: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo__image {
+  width: 280px;
 }
 
 .main__content {
   background-color: #f8f8f8;
-  margin-top: 100px;
+  margin-top: 165px;
   position: relative;
   padding-top: 50px;
 }
