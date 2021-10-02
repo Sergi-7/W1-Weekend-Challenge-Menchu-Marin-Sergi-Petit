@@ -7,6 +7,7 @@
   font-weight: 400;
   letter-spacing: 1px;
   padding: 20px;
+  width: fit-content;
 }
 
 * {
@@ -107,15 +108,29 @@ body > * > * > * {
   align-items: center;
 }
 
-.main__icon {
-  position: absolute;
-  top: -65px;
-}
-
 .title {
   font-size: 20px;
   font-weight: 800;
   letter-spacing: 4px;
+  padding: 15px 40px;
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.main__image {
+  position: absolute;
+  top: -60px;
+}
+
+.main__thumbnails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__thumbnails .button {
+  margin-top: 40px;
 }
 
 .thumbnail {
@@ -123,6 +138,10 @@ body > * > * > * {
   margin-bottom: 10px;
   height: 125px;
   overflow: hidden;
+}
+.thumbnail__image {
+  max-width: 100%;
+  height: min-content;
 }
 .thumbnail__info {
   position: absolute;
@@ -133,6 +152,7 @@ body > * > * > * {
   width: 55%;
   font-size: 12px;
   padding: 0 15px;
+  line-height: 1.5em;
 }
 
 footer {
