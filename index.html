@@ -14,11 +14,11 @@
     <title>Fiestas</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <section class="header__top">
         <div class="header__links">
           <img class="header__burger" src="" alt="h" />
-          <img class="headaer__user" src="" alt="h" />
+          <img class="header__user" src="" alt="h" />
           <div class="header__shop">
             <img class="header__search" src="" alt="h" />
             <img class="header__cart" src="" alt="h" />
@@ -26,15 +26,15 @@
           </div>
         </div>
       </section>
-      <section class="logo">
+      <section class="header__logo">
         <img
-          class="logo__image"
+          class="logo"
           src="img/logo-small.svg"
           alt="Logotipo de Maria Lunarillos"
         />
       </section>
     </header>
-    <main>
+    <main class="main">
       <section class="main__content">
         <div class="main__header">
           <img
@@ -122,11 +122,13 @@
           </div>
           <div class="subscribe">
             <h2 class="subscribe__title">RECIBE LAS NOVEDADES EN TU E-MAIL</h2>
-            <input class="input-text" type="text" />
-            <div class="privacy-check">
-              <input type="checkbox" id="accept" />
-              <label for="accept">Acepta la política de privacidad</label>
-              <button class="button button__full-width">SUSCRÍBETE ></button>
+            <input class="subscribe__input-text" type="text" />
+            <div class="subscribe__privacy-check">
+              <input type="checkbox__input" id="accept" />
+              <label class="checkbox__label" for="accept"
+                >Acepta la política de privacidad</label
+              >
+              <button class="button button--full-width">SUSCRÍBETE ></button>
             </div>
           </div>
           <div class="contact">
@@ -146,8 +148,8 @@
         </div>
       </section>
       <section class="footer__copyright">
-        <div class="copyright">
-          <p class="copyright__text">Copyright @2021</p>
+        <div class="footer__container">
+          <p class="footer__copyright-text">Copyright @2021</p>
         </div>
       </section>
     </footer>
