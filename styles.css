@@ -1,3 +1,14 @@
+.button {
+  background-color: #ff5958;
+  color: white;
+  border: none;
+  font-family: %button font;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 20px;
+}
+
 * {
   box-sizing: border-box;
 }
