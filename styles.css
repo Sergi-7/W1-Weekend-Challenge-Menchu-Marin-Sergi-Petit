@@ -23,11 +23,12 @@ body > * > * > * {
   border: 1px green dotted;
 }
 
-header {
-  background-color: #fff;
+.header__top {
+  background-color: #868181;
 }
-header__top {
-  background-color: #f8f8f8;
+.header__links {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {

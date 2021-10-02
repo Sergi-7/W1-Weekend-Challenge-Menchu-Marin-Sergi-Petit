@@ -27,10 +27,13 @@ body {
   }
 }
 
-header {
-  background-color: #fff;
+.header {
   &__top {
-    background-color: #f8f8f8;
+    background-color: #868181;
+  }
+  &__links {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
