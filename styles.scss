@@ -34,12 +34,18 @@ body {
   &__links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
+
   &__cart-items {
     display: flex;
+    width: 50px;
+    height: 50px;
     align-items: center;
     justify-content: center;
     background-color: red;
+    color: white;
+    font-size: x-large;
   }
   &__user {
     height: 27px;
@@ -64,10 +70,17 @@ body {
   &__cart {
     height: 50px;
     width: 50px;
+    background-color: white;
     background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
     background-position-x: -66px;
     background-position-y: 10px;
     background-repeat: no-repeat;
+  }
+  &__icon--light {
+    background-color: rgb(110, 110, 107);
+  }
+  &__icon--white {
+    background-color: white;
   }
 }
 
