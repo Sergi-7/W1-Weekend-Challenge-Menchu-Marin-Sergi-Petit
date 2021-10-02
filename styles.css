@@ -35,7 +35,7 @@ body > * > * > * {
 }
 
 .header__top {
-  background-color: #c4bbbb;
+  background-color: #f8f8f8;
 }
 .header__links {
   display: flex;
@@ -48,7 +48,7 @@ body > * > * > * {
   height: 50px;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: #ff5958;
   color: white;
   font-size: x-large;
 }
@@ -82,10 +82,10 @@ body > * > * > * {
   background-repeat: no-repeat;
 }
 .header__icon--light {
-  background-color: #6e6e6b;
+  background-color: #bab8b6;
 }
-.header__icon--white {
-  background-color: white;
+.header__icon--lightest {
+  background-color: #f8f8f8;
 }
 
 .logo {
