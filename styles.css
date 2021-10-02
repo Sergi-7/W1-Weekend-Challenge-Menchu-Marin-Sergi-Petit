@@ -142,6 +142,10 @@ body > * > * > * {
   background-color: #ff5958;
   color: white;
 }
+.footer__socials {
+  background-color: #bab8b6;
+  color: #66635e;
+}
 
 .envios {
   display: flex;
@@ -239,7 +243,23 @@ body > * > * > * {
   background-position-y: -494px;
   background-repeat: no-repeat;
 }
+.social__title {
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+}
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.contact__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .contact__icon {
   height: 31px;
   width: 30px;
@@ -263,6 +283,25 @@ body > * > * > * {
 .contact__title {
   color: #ff5958;
   font-size: large;
+  margin: 10px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe__privacy-check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe__title {
+  font-size: medium;
+}
+
+.checkbox__label {
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
