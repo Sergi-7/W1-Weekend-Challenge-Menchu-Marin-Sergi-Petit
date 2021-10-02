@@ -315,3 +315,9 @@ body {
 .button {
   @extend %button;
 }
+
+@media (min-width: 600px) {
+  .main__content {
+    background-color: pink;
+  }
+}

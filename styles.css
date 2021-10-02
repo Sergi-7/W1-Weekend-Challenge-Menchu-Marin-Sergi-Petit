@@ -312,4 +312,10 @@ body > * > * > * {
   font-size: large;
 }
 
+@media (min-width: 600px) {
+  .main__content {
+    background-color: pink;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
