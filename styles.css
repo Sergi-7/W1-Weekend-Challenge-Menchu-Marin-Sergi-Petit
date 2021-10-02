@@ -34,11 +34,58 @@ body > * > * > * {
   border: 1px green dotted;
 }
 
-header {
-  background-color: #fff;
+.header__top {
+  background-color: #c4bbbb;
 }
-header__top {
-  background-color: #f8f8f8;
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__cart-items {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  font-size: x-large;
+}
+.header__user {
+  height: 27px;
+  width: 27px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+}
+.header__shop {
+  display: flex;
+  flex-direction: row;
+}
+.header__search {
+  height: 50px;
+  width: 50px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
+  background-position-x: -304px;
+  background-position-y: 12px;
+  background-repeat: no-repeat;
+}
+.header__cart {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
+  background-position-x: -66px;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+}
+.header__icon--light {
+  background-color: #6e6e6b;
+}
+.header__icon--white {
+  background-color: white;
 }
 
 .logo {
