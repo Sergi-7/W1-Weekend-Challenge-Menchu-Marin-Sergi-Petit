@@ -128,13 +128,19 @@ body {
   top: -60px;
 }
 
-.main__thumbnails {
+.main__article {
   display: flex;
   flex-direction: column;
   align-items: center;
   .button {
     margin-top: 40px;
   }
+}
+
+.main__thumbnails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .thumbnail {
@@ -317,7 +323,28 @@ body {
 }
 
 @media (min-width: 600px) {
-  .main__content {
-    background-color: pink;
+  body {
+    & > * {
+      & > * {
+        & > * {
+          width: 950px;
+        }
+      }
+    }
+  }
+
+  .main__thumbnails {
+    border: 2px red dotted;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas:
+      ". . ."
+      ". . .";
+  }
+
+  .thumbnail {
+    border: 2px red dotted;
   }
 }
