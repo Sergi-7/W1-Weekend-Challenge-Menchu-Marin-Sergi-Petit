@@ -246,6 +246,9 @@ body > * > * > * {
   align-items: center;
 }
 
+.social {
+  padding: 30px;
+}
 .social__icons {
   display: flex;
   flex-direction: row;
@@ -285,7 +288,7 @@ body > * > * > * {
 .social__title {
   display: flex;
   justify-content: center;
-  font-size: medium;
+  font-size: 0.8em;
 }
 
 .contact {
@@ -293,11 +296,13 @@ body > * > * > * {
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 75px;
 }
 .contact__item {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 20px;
 }
 .contact__icon {
   height: 31px;
@@ -321,7 +326,8 @@ body > * > * > * {
 }
 .contact__title {
   color: #ff5958;
-  font-size: large;
+  font-size: medium;
+  font-weight: 600;
   margin: 10px;
 }
 
@@ -329,6 +335,10 @@ body > * > * > * {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid #66635e;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #66635e;
 }
 .subscribe__privacy-check {
   display: flex;
@@ -336,14 +346,33 @@ body > * > * > * {
   align-items: baseline;
 }
 .subscribe__title {
-  font-size: medium;
+  font-size: smaller;
+  font-weight: normal;
+}
+.subscribe__input-text {
+  width: 300px;
+  height: 35px;
 }
 
 .checkbox__label {
   margin-bottom: 15px;
+  font-size: small;
+  margin: 5px;
+}
+.checkbox__label--underline {
+  text-decoration: underline;
 }
 .checkbox__input {
-  margin: 10px;
+  margin: 5px;
+}
+
+.button--full-width {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
