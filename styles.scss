@@ -329,8 +329,8 @@ body {
   align-items: center;
   &__privacy-check {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: baseline;
   }
   &__title {
     font-size: medium;
@@ -340,6 +340,9 @@ body {
 .checkbox {
   &__label {
     margin-bottom: 15px;
+  }
+  &__input {
+    margin: 10px;
   }
 }
 .button {
