@@ -2,32 +2,34 @@
 @import "SASS-Files/variables";
 @import "SASS-Files/extend";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   width: 100vw;
   background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: $font;
   & > * {
     width: 100vw;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
     & > * {
       width: 100vw;
+      border: 1px black solid;
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 1px black solid;
+      & > * {
+        width: 325px;
+        border: 1px green dotted;
+      }
     }
   }
 }
 
 header {
   background-color: #fff;
-  .header__top {
+  &__top {
     background-color: #f8f8f8;
   }
 }
