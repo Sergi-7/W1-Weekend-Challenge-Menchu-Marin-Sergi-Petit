@@ -58,7 +58,11 @@ body > * > * > * {
   color: #fff;
   font-size: 22px;
 }
-.header__user {
+.header__login {
+  display: flex;
+  align-content: center;
+}
+.header__user-icon {
   height: 27px;
   width: 27px;
   background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
@@ -81,8 +85,8 @@ body > * > * > * {
 .header__cart {
   height: 50px;
   width: 50px;
-  background-color: white;
-  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
+  background-color: #fff;
+  background-image: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
   background-position-x: -66px;
   background-position-y: 10px;
   background-repeat: no-repeat;
@@ -408,12 +412,24 @@ body > * > * > * {
   display: none;
 }
 
+.header__login-text {
+  display: none;
+}
+
+.header__socials {
+  display: none;
+}
+
 @media (min-width: 600px) {
   body > * > * > * {
     width: 950px;
   }
 
   .header__burger {
+    display: none;
+  }
+
+  .header__search {
     display: none;
   }
 
@@ -442,6 +458,57 @@ body > * > * > * {
   .top-nav__item--3 {
     background-color: #f6b436;
     background-image: url(img/header-desktop-icons/mumuchu.png);
+  }
+
+  .header__right-links {
+    width: 950px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header__login {
+    width: min-content;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .header__login-text {
+    width: 150px;
+    margin-left: 15px;
+    display: block;
+    font-size: 15px;
+  }
+
+  .header__socials {
+    display: flex;
+    margin: 0 25px;
+  }
+
+  .header__social-icon {
+    width: 25px;
+    height: 20px;
+    background-image: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
+    margin: 0 6px;
+  }
+
+  .header__social-icon--1 {
+    background-position: -4px -540px;
+  }
+
+  .header__social-icon--2 {
+    background-position: -40px -540px;
+  }
+
+  .header__social-icon--3 {
+    background-position: -75px -540px;
+  }
+
+  .header__social-icon--4 {
+    background-position: -110px -540px;
+  }
+
+  .header__social-icon--5 {
+    background-position: -180px -540px;
   }
 
   .logo {
