@@ -41,6 +41,12 @@ body > * > * > * {
   justify-content: space-between;
   align-items: center;
 }
+.header__right-links {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+  align-items: center;
+}
 .header__cart-items {
   display: flex;
   width: 50px;
@@ -472,7 +478,6 @@ body > * > * > * {
     display: flex;
     justify-content: space-between;
   }
-
   .logo-desktop__image {
     align-self: flex-end;
     width: 250px;
@@ -492,7 +497,6 @@ body > * > * > * {
     align-items: center;
     justify-content: space-between;
   }
-
   .search-bar__button {
     text-decoration: none;
     background-color: #9faa4d;
@@ -505,11 +509,9 @@ body > * > * > * {
     margin: auto 3px;
     display: flex;
   }
-
   .search-bar__button--ofertas {
     background-color: #8e789d;
   }
-
   .search-bar__icon {
     display: inline-block;
     background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
@@ -520,21 +522,17 @@ body > * > * > * {
     position: relative;
     bottom: 5px;
   }
-
   .search-bar__icon--ofertas {
     background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
     background-position: -274px 4px;
   }
-
   .search-bar__search {
     display: flex;
   }
-
   .search-bar__input {
     border: 2px #e8e6e5 solid;
     height: 30px;
   }
-
   .search-bar__submit {
     border: none;
     height: 30px;
@@ -544,10 +542,6 @@ body > * > * > * {
     background-color: #e8e6e5;
     cursor: pointer;
     font-size: 12px;
-  }
-
-  .search-bar__submit:active {
-    border: none;
   }
 
   .header__nav {
