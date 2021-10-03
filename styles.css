@@ -8,6 +8,7 @@
   letter-spacing: 1px;
   padding: 20px;
   width: fit-content;
+  cursor: pointer;
 }
 
 * {
@@ -409,6 +410,10 @@ body > * > * > * {
   font-weight: bold;
 }
 
+button:hover {
+  background-color: rgba(229, 89, 89, 0.5);
+}
+
 .top-nav {
   display: none;
 }
@@ -800,29 +805,80 @@ body > * > * > * {
   .footer__container--column {
     display: flex;
     flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+
+  .envios:hover {
+    color: #ff5958;
+  }
+  .envios:hover .envios__icon--1 {
+    background-position: 0 -109px;
+  }
+  .envios:hover .envios__icon--2 {
+    background-position: -90px -109px;
+  }
+  .envios:hover .envios__icon--3 {
+    background-position: -150px -107px;
+  }
+  .envios:hover .envios__icon--4 {
+    background-position: -223px -109px;
   }
 
   .social {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex-grow: 1;
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 43px;
+  }
+  .social__title {
+    font-weight: 400;
+    margin-top: 0;
+  }
+  .social__icons--img {
+    cursor: pointer;
+  }
+  .social__icons--1:hover {
+    background-position: 0 -574px;
+  }
+  .social__icons--2:hover {
+    background-position: -35px -574px;
+  }
+  .social__icons--3:hover {
+    background-position: -70px -574px;
+  }
+  .social__icons--4:hover {
+    background-position: -106px -574px;
+  }
+  .social__icons--5:hover {
+    background-position: -142px -574px;
   }
 
   .subscribe {
+    height: 160px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     border: 0;
     border-right: 1px solid #66635e;
     border-left: 1px solid #66635e;
-    padding: 30px;
+    padding: 10px 30px 10px 30px;
     align-items: flex-start;
+    flex-grow: 2;
+  }
+  .subscribe__input-text {
+    width: 200px;
   }
 
   .button--full-width {
     width: 180px;
     align-self: flex-end;
+    margin-top: 10px;
   }
 
   .contact {
@@ -836,6 +892,13 @@ body > * > * > * {
     margin-top: 0;
     display: flex;
     flex-direction: row;
+  }
+  .contact__item:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff5958;
+  }
+  .contact__title {
+    font-weight: 400;
   }
 }
 
