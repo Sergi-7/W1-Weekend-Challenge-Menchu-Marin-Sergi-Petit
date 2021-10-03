@@ -845,6 +845,23 @@ button:hover {
       margin-top: 30px;
     }
   }
+
+  .envios:hover {
+    color: $accent;
+    .envios__icon--1 {
+      background-position: 0 -109px;
+    }
+    .envios__icon--2 {
+      background-position: -90px -109px;
+    }
+    .envios__icon--3 {
+      background-position: -150px -107px;
+    }
+    .envios__icon--4 {
+      background-position: -223px -109px;
+    }
+  }
+
   .social {
     display: flex;
     flex-direction: column;
@@ -855,6 +872,24 @@ button:hover {
     &__title {
       font-weight: 400;
       margin-top: 0;
+    }
+    &__icons--img {
+      cursor: pointer;
+    }
+    &__icons--1:hover {
+      background-position: 0 -574px;
+    }
+    &__icons--2:hover {
+      background-position: -35px -574px;
+    }
+    &__icons--3:hover {
+      background-position: -70px -574px;
+    }
+    &__icons--4:hover {
+      background-position: -106px -574px;
+    }
+    &__icons--5:hover {
+      background-position: -142px -574px;
     }
   }
   .subscribe {
@@ -890,6 +925,10 @@ button:hover {
       margin-top: 0;
       display: flex;
       flex-direction: row;
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: $accent;
+      }
     }
     &__title {
       font-weight: 400;

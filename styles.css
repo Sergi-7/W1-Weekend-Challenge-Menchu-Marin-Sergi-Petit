@@ -800,6 +800,22 @@ button:hover {
     margin-top: 30px;
   }
 
+  .envios:hover {
+    color: #ff5958;
+  }
+  .envios:hover .envios__icon--1 {
+    background-position: 0 -109px;
+  }
+  .envios:hover .envios__icon--2 {
+    background-position: -90px -109px;
+  }
+  .envios:hover .envios__icon--3 {
+    background-position: -150px -107px;
+  }
+  .envios:hover .envios__icon--4 {
+    background-position: -223px -109px;
+  }
+
   .social {
     display: flex;
     flex-direction: column;
@@ -811,6 +827,24 @@ button:hover {
   .social__title {
     font-weight: 400;
     margin-top: 0;
+  }
+  .social__icons--img {
+    cursor: pointer;
+  }
+  .social__icons--1:hover {
+    background-position: 0 -574px;
+  }
+  .social__icons--2:hover {
+    background-position: -35px -574px;
+  }
+  .social__icons--3:hover {
+    background-position: -70px -574px;
+  }
+  .social__icons--4:hover {
+    background-position: -106px -574px;
+  }
+  .social__icons--5:hover {
+    background-position: -142px -574px;
   }
 
   .subscribe {
@@ -848,6 +882,10 @@ button:hover {
     margin-top: 0;
     display: flex;
     flex-direction: row;
+  }
+  .contact__item:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff5958;
   }
   .contact__title {
     font-weight: 400;
