@@ -396,9 +396,11 @@ body > * > * > * {
 }
 .checkbox__label--underline {
   text-decoration: underline;
+  cursor: pointer;
 }
 .checkbox__input {
   margin: 5px;
+  cursor: pointer;
 }
 
 .button--full-width {

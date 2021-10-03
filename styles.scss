@@ -395,10 +395,12 @@ body {
     margin: 5px;
     &--underline {
       text-decoration: underline;
+      cursor: pointer;
     }
   }
   &__input {
     margin: 5px;
+    cursor: pointer;
   }
 }
 .button {
