@@ -335,6 +335,7 @@ body > * > * > * {
 
   .thumbnail {
     border: 2px red dotted;
+    height: 100%;
   }
   .thumbnail--1 {
     grid-area: a;
@@ -344,6 +345,11 @@ body > * > * > * {
   }
   .thumbnail--3 {
     grid-area: c;
+  }
+  .thumbnail--3 .thumbnail__image {
+    height: 600px;
+    max-width: none;
+    transform: translate(-350px, 0);
   }
 }
 
