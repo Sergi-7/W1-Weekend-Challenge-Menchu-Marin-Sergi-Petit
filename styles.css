@@ -193,6 +193,9 @@ body > * > * > * {
 .footer {
   margin-top: 100px;
 }
+.footer__brands {
+  display: none;
+}
 .footer__envios {
   background-color: #e8e6e5;
   color: #2e2924;
@@ -895,12 +898,54 @@ button:hover {
     display: flex;
     flex-direction: row;
   }
+  
   .contact__item:hover {
     text-decoration: underline;
     text-decoration-color: #ff5958;
   }
   .contact__title {
     font-weight: 400;
+  }
+
+  .footer__brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__brands__logos {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__brands--image {
+    filter: grayscale(100%);
+  }
+  .footer__brands--image:hover {
+    filter: none;
+    cursor: pointer;
+  }
+  .footer__brands--container {
+    display: flex;
+    justify-content: center;
+  }
+  .footer__brands--title {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-top: 2px solid #66635e;
+    border-bottom: 2px solid #66635e;
+    letter-spacing: 10px;
+    padding: 10px;
+  }
+  .footer__brands--button {
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+  .footer__brands--button:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }
 }
 
