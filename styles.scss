@@ -776,6 +776,7 @@ body {
   .thumbnail {
     display: flex;
     height: 100%;
+    cursor: pointer;
     &--1 {
       grid-area: a;
     }
