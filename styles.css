@@ -324,16 +324,26 @@ body > * > * > * {
   }
 
   .main__thumbnails {
-    border: 2px red dotted;
+    border: 2px green dotted;
+    height: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px 10px;
-    grid-template-areas: ". . ." ". . .";
+    grid-template-areas: "a a c" "b b c";
   }
 
   .thumbnail {
     border: 2px red dotted;
+  }
+  .thumbnail--1 {
+    grid-area: a;
+  }
+  .thumbnail--2 {
+    grid-area: b;
+  }
+  .thumbnail--3 {
+    grid-area: c;
   }
 }
 
