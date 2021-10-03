@@ -36,6 +36,9 @@ body > * > * > * {
 
 .header__top {
   background-color: #f8f8f8;
+  position: fixed;
+  z-index: 2;
+  top: 0;
 }
 .header__links {
   display: flex;
@@ -102,6 +105,7 @@ body > * > * > * {
   height: 100px;
   display: flex;
   justify-content: flex-start;
+  padding-top: 50px;
 }
 
 .logo {
@@ -112,6 +116,11 @@ body > * > * > * {
 
 .logo__image {
   width: 280px;
+  padding-top: 50px;
+}
+
+.main {
+  padding-top: 50px;
 }
 
 .main__content {
