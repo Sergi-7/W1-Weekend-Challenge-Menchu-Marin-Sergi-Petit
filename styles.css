@@ -528,6 +528,7 @@ button:hover {
     height: 20px;
     background-image: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
     margin: 0 6px;
+    cursor: pointer;
   }
 
   .header__social-icon--1 {
@@ -593,6 +594,9 @@ button:hover {
     background-position: -105px 10px;
   }
 
+  .header__shop:hover {
+    cursor: pointer;
+  }
   .header__shop:hover .header__items-preview {
     display: block;
   }
@@ -949,7 +953,6 @@ button:hover {
     margin-bottom: 100px;
   }
   .footer__brands--button:hover {
-    text-decoration: underline;
     cursor: pointer;
   }
 }
