@@ -35,6 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
   }
 
   &__right-links {
@@ -398,6 +399,10 @@ body {
   }
 }
 
+.top-nav {
+  display: none;
+}
+
 .logo-desktop {
   display: none;
 }
@@ -417,68 +422,38 @@ body {
     }
   }
 
-  .main__thumbnails {
-    height: 600px;
-    margin-bottom: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px 10px;
-    grid-template-areas:
-      "a a c"
-      "b b c";
+  .header__burger {
+    display: none;
   }
 
-  .thumbnail {
+  .top-nav {
+    align-self: flex-start;
     display: flex;
-    height: 100%;
-    &--1 {
-      grid-area: a;
-    }
-    &--2 {
-      grid-area: b;
-    }
-    &--3 {
-      grid-area: c;
-      .thumbnail__image {
-        height: 600px;
-        max-width: none;
-        transform: translate(-350px, 0);
-      }
+    justify-content: space-between;
+    width: 200px;
+
+    &__item {
+      width: 60px;
+      height: 70px;
+      background-repeat: no-repeat;
+      background-position-y: bottom;
     }
 
-    &__shape {
-      position: absolute;
-      bottom: 0;
-      left: 220px;
-      width: 0;
-      height: 0;
-      border-right: 85px solid transparent;
-      border-bottom: 179px solid rgba($lightest, $alpha: 0.8);
+    &__item--1 {
+      width: 70px;
+      height: 130px;
+      background-color: $accent;
+      background-image: url(img/header-desktop-icons/maria-lunarillos.png);
     }
 
-    &__info {
-      width: 220px;
-      height: 179px;
+    &__item--2 {
+      background-color: #6199af;
+      background-image: url(img/header-desktop-icons/cucute.png);
     }
 
-    &__info--1 {
-      right: 95px;
-    }
-
-    &__shape--1 {
-      left: 535px;
-    }
-
-    &__title {
-      font-size: 20px;
-      margin-top: 30px;
-      line-height: 1em;
-    }
-    &__description {
-      display: block;
-      font-size: 15px;
-      margin: 25px auto;
+    &__item--3 {
+      background-color: #f6b436;
+      background-image: url(img/header-desktop-icons/mumuchu.png);
     }
   }
 
@@ -608,6 +583,73 @@ body {
       font-weight: 600;
       letter-spacing: 0.1em;
       color: $darkest;
+    }
+  }
+
+  //main-desktop
+
+  .main__thumbnails {
+    height: 600px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas:
+      "a a c"
+      "b b c";
+  }
+
+  .thumbnail {
+    display: flex;
+    height: 100%;
+    &--1 {
+      grid-area: a;
+    }
+    &--2 {
+      grid-area: b;
+    }
+    &--3 {
+      grid-area: c;
+      .thumbnail__image {
+        height: 600px;
+        max-width: none;
+        transform: translate(-350px, 0);
+      }
+    }
+
+    &__shape {
+      position: absolute;
+      bottom: 0;
+      left: 220px;
+      width: 0;
+      height: 0;
+      border-right: 85px solid transparent;
+      border-bottom: 179px solid rgba($lightest, $alpha: 0.8);
+    }
+
+    &__info {
+      width: 220px;
+      height: 179px;
+    }
+
+    &__info--1 {
+      right: 95px;
+    }
+
+    &__shape--1 {
+      left: 535px;
+    }
+
+    &__title {
+      font-size: 20px;
+      margin-top: 30px;
+      line-height: 1em;
+    }
+    &__description {
+      display: block;
+      font-size: 15px;
+      margin: 25px auto;
     }
   }
 
