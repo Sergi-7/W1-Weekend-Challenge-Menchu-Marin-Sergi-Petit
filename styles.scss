@@ -445,16 +445,18 @@ body {
   }
 
   .top-nav {
+    width: 200px;
     align-self: flex-start;
     display: flex;
     justify-content: space-between;
-    width: 200px;
 
     &__item {
       width: 60px;
       height: 70px;
+      margin-right: 4px;
       background-repeat: no-repeat;
       background-position-y: bottom;
+      cursor: pointer;
     }
 
     &__item--1 {
@@ -469,9 +471,17 @@ body {
       background-image: url(img/header-desktop-icons/cucute.png);
     }
 
+    &__item--2:hover {
+      height: 130px;
+    }
+
     &__item--3 {
       background-color: #f6b436;
       background-image: url(img/header-desktop-icons/mumuchu.png);
+    }
+
+    &__item--3:hover {
+      height: 130px;
     }
   }
 

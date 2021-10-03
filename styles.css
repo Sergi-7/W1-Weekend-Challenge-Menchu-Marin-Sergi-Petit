@@ -434,16 +434,18 @@ body > * > * > * {
   }
 
   .top-nav {
+    width: 200px;
     align-self: flex-start;
     display: flex;
     justify-content: space-between;
-    width: 200px;
   }
   .top-nav__item {
     width: 60px;
     height: 70px;
+    margin-right: 4px;
     background-repeat: no-repeat;
     background-position-y: bottom;
+    cursor: pointer;
   }
   .top-nav__item--1 {
     width: 70px;
@@ -455,9 +457,15 @@ body > * > * > * {
     background-color: #6199af;
     background-image: url(img/header-desktop-icons/cucute.png);
   }
+  .top-nav__item--2:hover {
+    height: 130px;
+  }
   .top-nav__item--3 {
     background-color: #f6b436;
     background-image: url(img/header-desktop-icons/mumuchu.png);
+  }
+  .top-nav__item--3:hover {
+    height: 130px;
   }
 
   .header__right-links {
