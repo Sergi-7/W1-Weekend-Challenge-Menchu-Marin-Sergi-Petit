@@ -181,6 +181,9 @@ body {
 
 .footer {
   margin-top: 100px;
+  &__brands {
+    display: none;
+  }
   &__envios {
     background-color: $light;
     color: $darkest;
@@ -868,6 +871,46 @@ body {
       margin-top: 0;
       display: flex;
       flex-direction: row;
+    }
+  }
+  .footer__brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__logos {
+      display: flex;
+      flex-direction: row;
+    }
+    &--image {
+      filter: grayscale(100%);
+      &:hover {
+        filter: none;
+        cursor: pointer;
+      }
+    }
+    &--container {
+      display: flex;
+      justify-content: center;
+    }
+    &--title {
+      display: flex;
+      justify-content: center;
+      width: auto;
+      margin-top: 30px;
+      margin-bottom: 50px;
+      border-top: 2px solid $dark;
+      border-bottom: 2px solid $dark;
+      letter-spacing: 10px;
+      padding: 10px;
+    }
+    &--button {
+      margin-top: 40px;
+      margin-bottom: 100px;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
     }
   }
 }
