@@ -742,6 +742,7 @@ button:hover {
   .thumbnail {
     display: flex;
     height: 100%;
+    cursor: pointer;
   }
   .thumbnail--1 {
     grid-area: a;
