@@ -849,7 +849,6 @@ button:hover {
 
   .footer__container {
     display: flex;
-    flex: row;
     flex-wrap: nowrap;
     &--column {
       display: flex;
@@ -956,11 +955,18 @@ button:hover {
     &__logos {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
     &--image {
       filter: grayscale(100%);
+      opacity: 0.6;
+      padding: 10px 0;
+      max-width: 200px;
+      height: auto;
       &:hover {
         filter: none;
+        opacity: 1;
         cursor: pointer;
       }
     }
