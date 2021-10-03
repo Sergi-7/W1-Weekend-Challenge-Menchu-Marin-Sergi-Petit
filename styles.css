@@ -593,6 +593,7 @@ body > * > * > * {
   .logo-desktop__image {
     align-self: flex-end;
     width: 250px;
+    cursor: pointer;
   }
 
   .header__right {
