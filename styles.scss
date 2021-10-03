@@ -395,6 +395,7 @@ body {
 }
 .button {
   @extend %button;
+
   &--full-width {
     width: 100%;
     height: 30px;
@@ -403,6 +404,10 @@ body {
     justify-content: center;
     font-weight: bold;
   }
+}
+
+button:hover {
+  background-color: rgba(229, 89, 89, 0.5);
 }
 
 .top-nav {
