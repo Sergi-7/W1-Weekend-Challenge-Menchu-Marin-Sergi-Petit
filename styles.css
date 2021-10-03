@@ -420,6 +420,10 @@ body > * > * > * {
   display: none;
 }
 
+.header__items-preview {
+  display: none;
+}
+
 @media (min-width: 600px) {
   body > * > * > * {
     width: 950px;
@@ -480,9 +484,17 @@ body > * > * > * {
     cursor: pointer;
   }
 
+  .header__login:hover {
+    color: #ff5958;
+  }
+  .header__login:hover .header__user-icon {
+    background-position: -37px 0;
+  }
+
   .header__login-text {
     width: 150px;
     margin-left: 15px;
+    padding-top: 3px;
     display: block;
     font-size: 15px;
   }
@@ -503,20 +515,67 @@ body > * > * > * {
     background-position: -4px -540px;
   }
 
+  .header__social-icon--1:hover {
+    background-position: -4px -500px;
+  }
+
   .header__social-icon--2 {
     background-position: -40px -540px;
+  }
+
+  .header__social-icon--2:hover {
+    background-position: -40px -500px;
   }
 
   .header__social-icon--3 {
     background-position: -75px -540px;
   }
 
+  .header__social-icon--3:hover {
+    background-position: -75px -500px;
+  }
+
   .header__social-icon--4 {
     background-position: -110px -540px;
   }
 
+  .header__social-icon--4:hover {
+    background-position: -110px -500px;
+  }
+
   .header__social-icon--5 {
     background-position: -180px -540px;
+  }
+
+  .header__social-icon--5:hover {
+    background-position: -180px -500px;
+  }
+
+  .header__shop {
+    position: relative;
+  }
+
+  .header__items-preview {
+    display: none;
+    position: absolute;
+    width: 410px;
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
+    right: 0;
+    bottom: -70px;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  .header__cart:hover {
+    background-color: #ff5958;
+    background-position: -105px 10px;
+  }
+
+  .header__shop:hover .header__items-preview {
+    display: block;
   }
 
   .logo {
@@ -615,14 +674,30 @@ body > * > * > * {
   .header__nav-button--1 {
     background-image: url(img/header-desktop-icons/utensiliosML.png);
   }
+  .header__nav-button--1:hover {
+    background-color: #ff5958;
+    background-image: url(img/header-desktop-icons/utensiliosML-hover.png);
+  }
   .header__nav-button--2 {
     background-image: url(img/header-desktop-icons/magdalena.png);
+  }
+  .header__nav-button--2:hover {
+    background-color: #ff5958;
+    background-image: url(img/header-desktop-icons/magdalena-hover.png);
   }
   .header__nav-button--3 {
     background-image: url(img/header-desktop-icons/tarta-cumpleanos.png);
   }
+  .header__nav-button--3:hover {
+    background-color: #ff5958;
+    background-image: url(img/header-desktop-icons/tarta-cumpleanos-hover.png);
+  }
   .header__nav-button--4 {
     background-image: url(img/header-desktop-icons/delantal.png);
+  }
+  .header__nav-button--4:hover {
+    background-color: #ff5958;
+    background-image: url(img/header-desktop-icons/delantal-hover.png);
   }
   .header__nav-button--5 {
     background-image: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/menu.svg);
@@ -630,6 +705,9 @@ body > * > * > * {
     background-size: 560px;
     background-position: -320px 0;
     margin-left: 20px;
+  }
+  .header__nav-button--5:hover {
+    background-color: #f8f8f8;
   }
   .header__nav-button span {
     text-align: center;
