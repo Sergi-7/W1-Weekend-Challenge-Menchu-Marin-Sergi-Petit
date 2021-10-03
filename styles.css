@@ -709,6 +709,9 @@ body > * > * > * {
   .header__nav-button--5:hover {
     background-color: #f8f8f8;
   }
+  .header__nav-button--5:hover .header__nav-label {
+    color: #ff5958;
+  }
   .header__nav-button span {
     text-align: center;
     position: absolute;

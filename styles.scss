@@ -741,6 +741,9 @@ body {
 
     &--5:hover {
       background-color: $lightest;
+      .header__nav-label {
+        color: $accent;
+      }
     }
 
     span {
