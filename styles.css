@@ -473,6 +473,11 @@ body > * > * > * {
     justify-content: space-between;
   }
 
+  .logo-desktop__image {
+    align-self: flex-end;
+    width: 250px;
+  }
+
   .header__right {
     display: flex;
     flex-direction: column;
