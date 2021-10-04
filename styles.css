@@ -15,22 +15,25 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   margin: 0;
   width: 100vw;
-  background-color: #fff;
   font-family: "Source Sans Pro", sans-serif;
 }
-body > * {
+.body .body__container {
+  width: 100vw;
+  background-color: #fff;
+}
+.body .body__container > * {
   width: 100vw;
 }
-body > * > * {
+.body .body__container > * > * {
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-body > * > * > * {
+.body .body__container > * > * > * {
   width: 325px;
 }
 
@@ -193,7 +196,7 @@ body > * > * > * {
 .footer {
   margin-top: 100px;
 }
-.footer__brands {
+.footer .footer__brands {
   display: none;
 }
 .footer__envios {
@@ -444,7 +447,7 @@ button:hover {
 }
 
 @media (min-width: 600px) {
-  body > * > * > * {
+  .body .body__container > * > * > * {
     width: 950px;
   }
 
@@ -909,35 +912,35 @@ button:hover {
     font-weight: 400;
   }
 
-  .footer__brands {
+  .footer .footer__brands {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .footer__brands__logos {
+  .footer .footer__brands__logos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .footer__brands--image {
+  .footer .footer__brands--image {
     filter: grayscale(100%);
     opacity: 0.6;
     padding: 10px 0;
     max-width: 200px;
     height: auto;
   }
-  .footer__brands--image:hover {
+  .footer .footer__brands--image:hover {
     filter: none;
     opacity: 1;
     cursor: pointer;
   }
-  .footer__brands--container {
+  .footer .footer__brands--container {
     display: flex;
     justify-content: center;
   }
-  .footer__brands--title {
+  .footer .footer__brands--title {
     display: flex;
     justify-content: center;
     width: auto;
@@ -948,11 +951,12 @@ button:hover {
     letter-spacing: 10px;
     padding: 10px;
   }
-  .footer__brands--button {
+  .footer .footer__brands--button {
+    max-width: max-content;
     margin-top: 40px;
     margin-bottom: 100px;
   }
-  .footer__brands--button:hover {
+  .footer .footer__brands--button:hover {
     cursor: pointer;
   }
 }
