@@ -43,8 +43,8 @@
 
   &-list {
     list-style-type: none;
-    margin: 0;
-    margin-left: -35px;
+    margin-top: 0;
+    margin-left: -40px;
   }
   &-icon {
     display: flex;
@@ -59,19 +59,22 @@
   &-icon-1 {
     background-repeat: no-repeat;
     background-image: url(img/utensiliosML.png);
+    background-size: 50%;
   }
   &-icon-2 {
     background-repeat: no-repeat;
     background-image: url(img/magdalena.png);
+    background-size: 50%;
   }
   &-icon-3 {
     background-repeat: no-repeat;
     background-image: url(img/tarta-cumpleanos.png);
+    background-size: 50%;
   }
   &-icon-4 {
     background-repeat: no-repeat;
     background-image: url(img/delantal.png);
-    background-size: 80%;
+    background-size: 70%;
   }
   &-icon-5 {
     background-position-x: -200px;
@@ -112,7 +115,8 @@
   &-text {
     font-family: $font;
     font-size: 14px;
-    margin-left: 10px;
+    margin-left: 20px;
+    font-weight: 600;
   }
 }
 
