@@ -393,9 +393,8 @@ body > * > * > * {
 }
 
 .checkbox__label {
-  margin-bottom: 15px;
+  margin-bottom: 5px 5px 15px 5px;
   font-size: small;
-  margin: 5px;
 }
 .checkbox__label--underline {
   text-decoration: underline;
@@ -871,7 +870,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     border: 0;
     border-right: 1px solid #66635e;
