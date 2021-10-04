@@ -55,10 +55,11 @@
   width: 50px;
   border-right: 1px solid white;
   background-size: 60%;
+  background-position: center;
 }
 .body__nav-icon-1 {
   background-repeat: no-repeat;
-  background: url(img/utensiliosML.png);
+  background-image: url(img/utensiliosML.png);
 }
 .body__nav-icon-2 {
   background-repeat: no-repeat;
@@ -71,6 +72,7 @@
 .body__nav-icon-4 {
   background-repeat: no-repeat;
   background-image: url(img/delantal.png);
+  background-size: 80%;
 }
 .body__nav-icon-5 {
   background-position-x: -200px;
@@ -89,9 +91,9 @@
 .body__nav-icon-7 {
   background-repeat: no-repeat;
   background-size: 350px;
-  background-position-x: -200px;
+  background-position-x: -300px;
   background-position-y: 0px;
-  background-image: url(ihttps://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/menu.svg);
+  background-image: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/menu.svg);
 }
 .body__nav-element {
   display: flex;
@@ -110,7 +112,7 @@
 }
 .body__nav-text {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: larger;
+  font-size: 14px;
   margin-left: 10px;
 }
 
