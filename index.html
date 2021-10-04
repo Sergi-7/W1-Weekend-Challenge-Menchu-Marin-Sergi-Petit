@@ -17,342 +17,352 @@
     />
     <title>Fiestas</title>
   </head>
-  <body>
-    <header class="header">
-      <section class="header__top">
-        <div class="header__links">
-          <img
-            class="header__burger"
-            src="img/burger_menu.png"
-            alt="Menu tipo burguer"
-          />
-          <div class="top-nav">
-            <div class="top-nav__item top-nav__item--1"></div>
-            <div class="top-nav__item top-nav__item--2"></div>
-            <div class="top-nav__item top-nav__item--3"></div>
+  <body class="body">
+    <div class="body__container">
+      <header class="header">
+        <section class="header__top">
+          <div class="header__links">
+            <img
+              class="header__burger"
+              src="img/burger_menu.png"
+              alt="Menu tipo burguer"
+            />
+            <div class="top-nav">
+              <div class="top-nav__item top-nav__item--1"></div>
+              <div class="top-nav__item top-nav__item--2"></div>
+              <div class="top-nav__item top-nav__item--3"></div>
+            </div>
+            <div class="header__right-links">
+              <div class="header__login">
+                <div class="header__user-icon"></div>
+                <span class="header__login-text">ENTRA | REGÍSTRATE</span>
+              </div>
+              <div class="header__socials">
+                <div class="header__social-icon header__social-icon--1"></div>
+                <div class="header__social-icon header__social-icon--2"></div>
+                <div class="header__social-icon header__social-icon--3"></div>
+                <div class="header__social-icon header__social-icon--4"></div>
+                <div class="header__social-icon header__social-icon--5"></div>
+              </div>
+              <div class="header__shop">
+                <div class="header__icon header__icon--light">
+                  <div class="header__search"></div>
+                </div>
+                <div class="header__icon header__icon--lightest">
+                  <div class="header__cart"></div>
+                </div>
+                <div class="header__cart-items">0</div>
+                <div class="header__items-preview">
+                  No tienes artículos en tu cesta de compra.
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="header__right-links">
-            <div class="header__login">
-              <div class="header__user-icon"></div>
-              <span class="header__login-text">ENTRA | REGÍSTRATE</span>
-            </div>
-            <div class="header__socials">
-              <div class="header__social-icon header__social-icon--1"></div>
-              <div class="header__social-icon header__social-icon--2"></div>
-              <div class="header__social-icon header__social-icon--3"></div>
-              <div class="header__social-icon header__social-icon--4"></div>
-              <div class="header__social-icon header__social-icon--5"></div>
-            </div>
-            <div class="header__shop">
-              <div class="header__icon header__icon--light">
-                <div class="header__search"></div>
+        </section>
+        <section class="header__logo">
+          <div class="logo">
+            <img
+              class="logo__image"
+              src="img/logo-small.svg"
+              alt="Logotipo de Maria Lunarillos"
+            />
+          </div>
+          <div class="logo-desktop">
+            <img
+              class="logo-desktop__image"
+              src="https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/logo.svg"
+              alt="Logotipo de Maria Lunarillos"
+            />
+            <div class="header__right">
+              <div class="search-bar">
+                <a
+                  href=""
+                  class="search-bar__button search-bar__button--novedades"
+                  ><div
+                    class="search-bar__icon search-bar__icon--novedades"
+                  ></div>
+                  <span>NOVEDADES</span></a
+                >
+                <a
+                  href=""
+                  class="search-bar__button search-bar__button--ofertas"
+                  ><div
+                    class="search-bar__icon search-bar__icon--ofertas"
+                  ></div>
+                  <span>OFERTAS</span></a
+                >
+                <div class="search-bar__search">
+                  <input
+                    class="search-bar__input"
+                    type="text"
+                    placeholder="¿QUÉ BUSCAS?"
+                  />
+                  <button
+                    class="search-bar__submit"
+                    type="submit"
+                    title="Buscar"
+                  ></button>
+                </div>
               </div>
-              <div class="header__icon header__icon--lightest">
-                <div class="header__cart"></div>
-              </div>
-              <div class="header__cart-items">0</div>
-              <div class="header__items-preview">
-                No tienes artículos en tu cesta de compra.
+              <div class="header__nav">
+                <a href="" class="header__nav-button header__nav-button--1">
+                  <span class="header__nav-label">UTENSILIOS</span>
+                </a>
+                <a href="" class="header__nav-button header__nav-button--2">
+                  <span class="header__nav-label">INGREDIENTES</span>
+                </a>
+                <a href="" class="header__nav-button header__nav-button--3">
+                  <span class="header__nav-label">FIESTAS</span>
+                </a>
+                <a href="" class="header__nav-button header__nav-button--4">
+                  <span class="header__nav-label">MARCAS</span>
+                </a>
+                <a href="" class="header__nav-button header__nav-button--5">
+                  <span class="header__nav-label">BLOG</span>
+                </a>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="header__logo">
-        <div class="logo">
-          <img
-            class="logo__image"
-            src="img/logo-small.svg"
-            alt="Logotipo de Maria Lunarillos"
-          />
-        </div>
-        <div class="logo-desktop">
-          <img
-            class="logo-desktop__image"
-            src="https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/logo.svg"
-            alt="Logotipo de Maria Lunarillos"
-          />
-          <div class="header__right">
-            <div class="search-bar">
-              <a
-                href=""
-                class="search-bar__button search-bar__button--novedades"
-                ><div
-                  class="search-bar__icon search-bar__icon--novedades"
-                ></div>
-                <span>NOVEDADES</span></a
-              >
-              <a href="" class="search-bar__button search-bar__button--ofertas"
-                ><div class="search-bar__icon search-bar__icon--ofertas"></div>
-                <span>OFERTAS</span></a
-              >
-              <div class="search-bar__search">
-                <input
-                  class="search-bar__input"
-                  type="text"
-                  placeholder="¿QUÉ BUSCAS?"
+        </section>
+      </header>
+      <main class="main">
+        <section class="main__content">
+          <div class="main__header">
+            <img
+              class="main__image"
+              src="img/tarta-cumpleanos-small.png"
+              alt="Icono de tarta de cumpleaños"
+            />
+            <h1 class="title">FIESTAS</h1>
+          </div>
+          <article class="main__article">
+            <div class="main__thumbnails">
+              <section class="thumbnail thumbnail--1">
+                <img
+                  class="thumbnail__image"
+                  src="img/unicornios1.jpg"
+                  alt="Vasos decorados de unicornios"
                 />
-                <button
-                  class="search-bar__submit"
-                  type="submit"
-                  title="Buscar"
-                ></button>
+                <div class="thumbnail__info thumbnail__info--1">
+                  <h2 class="thumbnail__title">FIESTAS TEMÁTICAS</h2>
+                  <p class="thumbnail__description">
+                    Platos de papel, vasos, servilletas... para montar una
+                    maravillosa fiesta temática.
+                  </p>
+                </div>
+                <div class="thumbnail__shape thumbnail__shape--1"></div>
+              </section>
+              <section class="thumbnail thumbnail--2">
+                <img
+                  class="thumbnail__image"
+                  src="img/tropical1.jpg"
+                  alt="Lámpara con forma de piña en un fondo tropical"
+                />
+                <div class="thumbnail__info thumbnail__info--2">
+                  <h2 class="thumbnail__title">FIESTAS PERSONAJES</h2>
+                  <p class="thumbnail__description">
+                    Menaje desechable de los personajes favoritos de los niños.
+                  </p>
+                </div>
+                <div class="thumbnail__shape"></div>
+              </section>
+              <section class="thumbnail thumbnail--3">
+                <img
+                  class="thumbnail__image"
+                  src="img/animales1.jpg"
+                  alt="Máscaras de papel con temática de animales"
+                />
+                <div class="thumbnail__info thumbnail__info--3">
+                  <h2 class="thumbnail__title">ACCESORIOS PARA FIESTAS</h2>
+                  <p class="thumbnail__description">
+                    Farolillos, pompones, guirnaldas, confeti, globos... ¡Decora
+                    tu fiesta!
+                  </p>
+                </div>
+                <div class="thumbnail__shape"></div>
+              </section>
+            </div>
+            <button class="button">VER MÁS</button>
+          </article>
+        </section>
+      </main>
+      <footer class="footer">
+        <section class="footer__brands">
+          <div class="footer__brands--container">
+            <h2 class="footer__brands--title">NUESTRAS MARCAS</h2>
+          </div>
+          <div class="footer__brands__logos">
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Wilton_4.png"
+              alt="Wilton"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Emile_Henry_2.png"
+              alt="Emile Henry"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Silikomart_2.png"
+              alt="Silikomart"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Nordic_Ware_2.png"
+              alt="Nordic Ware"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Lekue_5.png"
+              alt="Lekue"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Valrhona_2.png"
+              alt="Valrhona"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Joseph_Joseph_2.png"
+              alt="Joseph"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Squires_Kitchen_2.png"
+              alt="Squires Kitchen"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/KitchenCraft_2.png"
+              alt="KitchenCraft"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/KitchenAid_1.png"
+              alt="KitchenAid"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/GreenGate_2.png"
+              alt="Greengate"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Decora_1.png"
+              alt="Decora"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Kilner_1.png"
+              alt="Kilner"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Stadter_1.png"
+              alt="Stadter"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Funcakes_1.png"
+              alt="Funcakes"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/House_of_Marie_1.png"
+              alt="House of Marie"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/Rainbow_Dust_1.png"
+              alt="Rainbow dust"
+            />
+            <img
+              class="footer__brands--image"
+              src="https://static3.marialunarillos.com/media/catalog/category/LorAnn_1.png"
+              alt="LorAnn"
+            />
+          </div>
+          <button class="button footer__brands--button">VER MÁS</button>
+        </section>
+        <section class="footer__envios">
+          <div class="footer__container footer__container--row-wrap">
+            <div class="envios">
+              <div class="envios__icon envios__icon--1"></div>
+              <h2 class="envios__title">ENVÍO GRATIS</h2>
+              <h3 class="envios__subtitle">PEDIDOS SUPERIORES A 70€</h3>
+            </div>
+            <div class="envios">
+              <div class="envios__icon envios__icon--2"></div>
+              <h2 class="envios__title">ENVÍO 24-48 HORAS</h2>
+              <h3 class="envios__subtitle">
+                HAZ TU PEDIDO ANTES DE LAS 18:00h
+              </h3>
+            </div>
+            <div class="envios">
+              <div class="envios__icon envios__icon--3"></div>
+              <h2 class="envios__title">DEVOLUCIONES</h2>
+              <h3 class="envios__subtitle">30 DÍAS PARA DEVOLVER TU COMPRA</h3>
+            </div>
+            <div class="envios">
+              <div class="envios__icon envios__icon--4"></div>
+              <h2 class="envios__title">CONTRA REEMBOLSO</h2>
+              <h3 class="envios__subtitle">SIN COMISIÓN</h3>
+            </div>
+          </div>
+        </section>
+        <section class="footer__socials">
+          <div class="footer__container footer__container--column">
+            <div class="social">
+              <h2 class="social__title">SÍGUENOS</h2>
+              <div class="social__icons">
+                <div class="social__icons--img social__icons--1"></div>
+                <div class="social__icons--img social__icons--2"></div>
+                <div class="social__icons--img social__icons--3"></div>
+                <div class="social__icons--img social__icons--4"></div>
+                <div class="social__icons--img social__icons--5"></div>
               </div>
             </div>
-            <div class="header__nav">
-              <a href="" class="header__nav-button header__nav-button--1">
-                <span class="header__nav-label">UTENSILIOS</span>
-              </a>
-              <a href="" class="header__nav-button header__nav-button--2">
-                <span class="header__nav-label">INGREDIENTES</span>
-              </a>
-              <a href="" class="header__nav-button header__nav-button--3">
-                <span class="header__nav-label">FIESTAS</span>
-              </a>
-              <a href="" class="header__nav-button header__nav-button--4">
-                <span class="header__nav-label">MARCAS</span>
-              </a>
-              <a href="" class="header__nav-button header__nav-button--5">
-                <span class="header__nav-label">BLOG</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </header>
-    <main class="main">
-      <section class="main__content">
-        <div class="main__header">
-          <img
-            class="main__image"
-            src="img/tarta-cumpleanos-small.png"
-            alt="Icono de tarta de cumpleaños"
-          />
-          <h1 class="title">FIESTAS</h1>
-        </div>
-        <article class="main__article">
-          <div class="main__thumbnails">
-            <section class="thumbnail thumbnail--1">
-              <img
-                class="thumbnail__image"
-                src="img/unicornios1.jpg"
-                alt="Vasos decorados de unicornios"
-              />
-              <div class="thumbnail__info thumbnail__info--1">
-                <h2 class="thumbnail__title">FIESTAS TEMÁTICAS</h2>
-                <p class="thumbnail__description">
-                  Platos de papel, vasos, servilletas... para montar una
-                  maravillosa fiesta temática.
-                </p>
+            <div class="subscribe">
+              <h2 class="subscribe__title">
+                RECIBE LAS NOVEDADES EN TU E-MAIL
+              </h2>
+              <input class="subscribe__input-text" type="text" />
+              <div class="subscribe__privacy-check">
+                <input class="checkbox__input" type="checkbox" id="accept" />
+                <label class="checkbox__label" for="accept"
+                  >Acepta la
+                  <span class="checkbox__label--underline">
+                    política de privacidad
+                  </span></label
+                >
               </div>
-              <div class="thumbnail__shape thumbnail__shape--1"></div>
-            </section>
-            <section class="thumbnail thumbnail--2">
-              <img
-                class="thumbnail__image"
-                src="img/tropical1.jpg"
-                alt="Lámpara con forma de piña en un fondo tropical"
-              />
-              <div class="thumbnail__info thumbnail__info--2">
-                <h2 class="thumbnail__title">FIESTAS PERSONAJES</h2>
-                <p class="thumbnail__description">
-                  Menaje desechable de los personajes favoritos de los niños.
-                </p>
+              <div class="button--align-right">
+                <button class="button button--full-width">SUSCRÍBETE ></button>
               </div>
-              <div class="thumbnail__shape"></div>
-            </section>
-            <section class="thumbnail thumbnail--3">
-              <img
-                class="thumbnail__image"
-                src="img/animales1.jpg"
-                alt="Máscaras de papel con temática de animales"
-              />
-              <div class="thumbnail__info thumbnail__info--3">
-                <h2 class="thumbnail__title">ACCESORIOS PARA FIESTAS</h2>
-                <p class="thumbnail__description">
-                  Farolillos, pompones, guirnaldas, confeti, globos... ¡Decora
-                  tu fiesta!
-                </p>
+            </div>
+            <div class="contact">
+              <div class="contact__item">
+                <div class="contact__icon contact__icon--1"></div>
+                <h2 class="contact__title">CONTACTO</h2>
               </div>
-              <div class="thumbnail__shape"></div>
-            </section>
-          </div>
-          <button class="button">VER MÁS</button>
-        </article>
-      </section>
-    </main>
-    <footer class="footer">
-      <section class="footer__brands">
-        <div class="footer__brands--container">
-          <h2 class="footer__brands--title">NUESTRAS MARCAS</h2>
-        </div>
-        <div class="footer__brands__logos">
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Wilton_4.png"
-            alt="Wilton"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Emile_Henry_2.png"
-            alt="Emile Henry"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Silikomart_2.png"
-            alt="Silikomart"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Nordic_Ware_2.png"
-            alt="Nordic Ware"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Lekue_5.png"
-            alt="Lekue"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Valrhona_2.png"
-            alt="Valrhona"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Joseph_Joseph_2.png"
-            alt="Joseph"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Squires_Kitchen_2.png"
-            alt="Squires Kitchen"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/KitchenCraft_2.png"
-            alt="KitchenCraft"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/KitchenAid_1.png"
-            alt="KitchenAid"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/GreenGate_2.png"
-            alt="Greengate"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Decora_1.png"
-            alt="Decora"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Kilner_1.png"
-            alt="Kilner"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Stadter_1.png"
-            alt="Stadter"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Funcakes_1.png"
-            alt="Funcakes"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/House_of_Marie_1.png"
-            alt="House of Marie"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/Rainbow_Dust_1.png"
-            alt="Rainbow dust"
-          />
-          <img
-            class="footer__brands--image"
-            src="https://static3.marialunarillos.com/media/catalog/category/LorAnn_1.png"
-            alt="LorAnn"
-          />
-        </div>
-        <button class="button footer__brands--button">VER MÁS</button>
-      </section>
-      <section class="footer__envios">
-        <div class="footer__container footer__container--row-wrap">
-          <div class="envios">
-            <div class="envios__icon envios__icon--1"></div>
-            <h2 class="envios__title">ENVÍO GRATIS</h2>
-            <h3 class="envios__subtitle">PEDIDOS SUPERIORES A 70€</h3>
-          </div>
-          <div class="envios">
-            <div class="envios__icon envios__icon--2"></div>
-            <h2 class="envios__title">ENVÍO 24-48 HORAS</h2>
-            <h3 class="envios__subtitle">HAZ TU PEDIDO ANTES DE LAS 18:00h</h3>
-          </div>
-          <div class="envios">
-            <div class="envios__icon envios__icon--3"></div>
-            <h2 class="envios__title">DEVOLUCIONES</h2>
-            <h3 class="envios__subtitle">30 DÍAS PARA DEVOLVER TU COMPRA</h3>
-          </div>
-          <div class="envios">
-            <div class="envios__icon envios__icon--4"></div>
-            <h2 class="envios__title">CONTRA REEMBOLSO</h2>
-            <h3 class="envios__subtitle">SIN COMISIÓN</h3>
-          </div>
-        </div>
-      </section>
-      <section class="footer__socials">
-        <div class="footer__container footer__container--column">
-          <div class="social">
-            <h2 class="social__title">SÍGUENOS</h2>
-            <div class="social__icons">
-              <div class="social__icons--img social__icons--1"></div>
-              <div class="social__icons--img social__icons--2"></div>
-              <div class="social__icons--img social__icons--3"></div>
-              <div class="social__icons--img social__icons--4"></div>
-              <div class="social__icons--img social__icons--5"></div>
+              <div class="contact__item">
+                <div class="contact__icon contact__icon--2"></div>
+                <h2 class="contact__title">SOBRE NOSOTROS</h2>
+              </div>
+              <div class="contact__item">
+                <div class="contact__icon contact__icon--3"></div>
+                <h2 class="contact__title">CONDICIONES DE VENTA</h2>
+              </div>
             </div>
           </div>
-          <div class="subscribe">
-            <h2 class="subscribe__title">RECIBE LAS NOVEDADES EN TU E-MAIL</h2>
-            <input class="subscribe__input-text" type="text" />
-            <div class="subscribe__privacy-check">
-              <input class="checkbox__input" type="checkbox" id="accept" />
-              <label class="checkbox__label" for="accept"
-                >Acepta la
-                <span class="checkbox__label--underline">
-                  política de privacidad
-                </span></label
-              >
-            </div>
-            <div class="button--align-right">
-              <button class="button button--full-width">SUSCRÍBETE ></button>
-            </div>
+        </section>
+        <section class="footer__copyright">
+          <div class="footer__container">
+            <p class="footer__copyright-text">Copyright @2021</p>
           </div>
-          <div class="contact">
-            <div class="contact__item">
-              <div class="contact__icon contact__icon--1"></div>
-              <h2 class="contact__title">CONTACTO</h2>
-            </div>
-            <div class="contact__item">
-              <div class="contact__icon contact__icon--2"></div>
-              <h2 class="contact__title">SOBRE NOSOTROS</h2>
-            </div>
-            <div class="contact__item">
-              <div class="contact__icon contact__icon--3"></div>
-              <h2 class="contact__title">CONDICIONES DE VENTA</h2>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="footer__copyright">
-        <div class="footer__container">
-          <p class="footer__copyright-text">Copyright @2021</p>
-        </div>
-      </section>
-    </footer>
+        </section>
+      </footer>
+    </div>
   </body>
 </html>
