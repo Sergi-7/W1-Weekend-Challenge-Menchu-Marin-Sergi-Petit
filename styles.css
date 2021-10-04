@@ -820,6 +820,7 @@ button:hover {
 
   .envios:hover {
     color: #ff5958;
+    cursor: pointer;
   }
   .envios:hover .envios__icon--1 {
     background-position: 0 -109px;
