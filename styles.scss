@@ -30,6 +30,84 @@
   }
 }
 
+.body__nav {
+  width: 80%;
+  background-color: $light;
+  height: 100vh;
+
+  &-list {
+    list-style-type: none;
+    margin: 0;
+    margin-left: -35px;
+  }
+  &-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-right: 1px solid white;
+    background-size: 60%;
+  }
+  &-icon-1 {
+    background-repeat: no-repeat;
+    background: url(img/utensiliosML.png);
+  }
+  &-icon-2 {
+    background-repeat: no-repeat;
+    background-image: url(img/magdalena.png);
+  }
+  &-icon-3 {
+    background-repeat: no-repeat;
+    background-image: url(img/tarta-cumpleanos.png);
+  }
+  &-icon-4 {
+    background-repeat: no-repeat;
+    background-image: url(img/delantal.png);
+  }
+  &-icon-5 {
+    background-position-x: -200px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-image: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/menu.svg);
+  }
+  &-icon-6 {
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position-x: -250px;
+    background-position-y: 0px;
+    background-image: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/menu.svg);
+  }
+  &-icon-7 {
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position-x: -200px;
+    background-position-y: 0px;
+    background-image: url(ihttps://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/menu.svg);
+  }
+  &-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid white;
+    &-1 {
+      background-color: #ff5959;
+    }
+    &-2 {
+      background-color: #9faa4d;
+    }
+    &-3 {
+      background-color: #8e789d;
+    }
+  }
+  &-text {
+    font-family: $font;
+    font-size: larger;
+    margin-left: 10px;
+  }
+}
+
 .header {
   &__top {
     background-color: $lightest;
