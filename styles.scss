@@ -863,6 +863,7 @@ button:hover {
 
   .envios:hover {
     color: $accent;
+    cursor: pointer;
     .envios__icon--1 {
       background-position: 0 -109px;
     }
